@@ -5,13 +5,10 @@ import { selectCategory, selectGlobal } from "../../redux/selectors";
 import { Categories } from "../Categories/Categories";
 import { ArticlesList } from "../ArticlesList/ArticlesList";
 import css from "./ArticlesTab.module.css";
-
-import { Loader } from "../../components/Loader/Loader";
 import { setCurrentPage } from "../../redux/categorySlice";
 
 export const ArticlesTab = () => {
   const { t } = useTranslation(["articles"]);
-  const { error, pending } = useSelector(selectGlobal);
   const { categorySelected } = useSelector(selectCategory);
   const [articles, setArticles] = useState([]);
   const dispatch = useDispatch();
@@ -27,8 +24,6 @@ export const ArticlesTab = () => {
 
   return (
     <div className="container">
-      {/* <p>{error}</p>
-      {pending && <Loader />} */}
       <h1 className={css.title}>{t("title")}</h1>
       <div className={css.finPageWrapper}>
         <Categories loadArticles={resetArticles} />

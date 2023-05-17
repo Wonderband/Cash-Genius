@@ -8,10 +8,9 @@ import { Suspense, useEffect } from "react";
 import { toast, ToastContainer } from "react-toastify";
 
 export const Home = () => {
-  const { error } = useSelector(selectGlobal);
+  const { error, pending } = useSelector(selectGlobal);
   useEffect(() => {
     if (error) {
-      console.log(error);
       toast.error(error);
     }
   }, [error]);
@@ -30,6 +29,7 @@ export const Home = () => {
         pauseOnHover
         theme="light"
       />
+      {pending && <Loader />}
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
