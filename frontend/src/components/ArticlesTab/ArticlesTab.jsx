@@ -27,8 +27,8 @@ export const ArticlesTab = () => {
 
   return (
     <div className="container">
-      <p>{error}</p>
-      {pending && <Loader />}
+      {/* <p>{error}</p>
+      {pending && <Loader />} */}
       <h1 className={css.title}>{t("title")}</h1>
       <div className={css.finPageWrapper}>
         <Categories loadArticles={resetArticles} />
