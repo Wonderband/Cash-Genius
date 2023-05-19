@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cash-Genius/static/css/main.0b4c9e55.css",
-    "main.js": "/Cash-Genius/static/js/main.5dab742d.js",
+    "main.js": "/Cash-Genius/static/js/main.ae29d6f7.js",
     "static/js/787.074db138.chunk.js": "/Cash-Genius/static/js/787.074db138.chunk.js",
     "static/media/CormorantGaramond-Bold.ttf": "/Cash-Genius/static/media/CormorantGaramond-Bold.baa49dd6bbfc40f18cc9.ttf",
     "static/media/hero-bg-desk@2x.jpg": "/Cash-Genius/static/media/hero-bg-desk@2x.fb4fd504158105129d45.jpg",
@@ -67,11 +67,11 @@
     "index.html": "/Cash-Genius/index.html",
     "static/media/getFetch.cjs": "/Cash-Genius/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.0b4c9e55.css.map": "/Cash-Genius/static/css/main.0b4c9e55.css.map",
-    "main.5dab742d.js.map": "/Cash-Genius/static/js/main.5dab742d.js.map",
+    "main.ae29d6f7.js.map": "/Cash-Genius/static/js/main.ae29d6f7.js.map",
     "787.074db138.chunk.js.map": "/Cash-Genius/static/js/787.074db138.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b4c9e55.css",
-    "static/js/main.5dab742d.js"
+    "static/js/main.ae29d6f7.js"
   ]
 }
